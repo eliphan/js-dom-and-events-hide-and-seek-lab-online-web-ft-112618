@@ -12,5 +12,6 @@ return parseInt(rankOfElement) + n;
 }
 
 function deepestChild() {
-  return document.getElementById('grand-node').querySelector('div div div div');
+  let grandNode = document.getElementById('grand-node');
+  let deepestNode = grandNode
 }
