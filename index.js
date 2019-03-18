@@ -11,6 +11,7 @@ function increaseRankBy( n ) {
   for ( let i = 0, l = rankedLists.length; i < l; i++ ) {
     let children = rankedLists[ i ].children
       }
+      
 }
 
 function deepestChild() {
