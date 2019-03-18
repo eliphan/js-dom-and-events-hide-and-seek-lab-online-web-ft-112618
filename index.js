@@ -6,7 +6,7 @@ function nestedTarget() {
   return document.getElementById('nested').querySelector('div.target');
 }
 
-let 
+
 let increaseRankBy = ( n => { parseInt(n)) }
 
  function increaseRankBy(n) {
