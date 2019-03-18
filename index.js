@@ -6,4 +6,8 @@ function nestedTarget() {
   return document.getElementById('nested').querySelector('div.target');
 }
 
-let increseRankBy = 
+
+
+function deepestChild() {
+  return document.querySelectorAll('div.grand-node ')
+}
