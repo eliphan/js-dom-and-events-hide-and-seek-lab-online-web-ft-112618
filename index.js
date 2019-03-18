@@ -12,7 +12,7 @@ return parseInt(rankOfElement) + n;
 }
 
 function deepestChild() {
-  let grandNode = document.getElementById('grand-node');
+  let node = document.getElementById('grand-node');
   let nextNode = grandNode.children[ 0 ]
   while ( nextNode ) {
     node = nextNode
