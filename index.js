@@ -7,7 +7,7 @@ function nestedTarget() {
 }
 
 let 
-let increaseRankBy = ( n => parseInt(n))
+let increaseRankBy = ( n => { parseInt(n)) }
 
  function increaseRankBy(n) {
    return document.querySelectorAll('ul.ranked-list').parseInt(n);
